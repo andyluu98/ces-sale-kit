@@ -1,0 +1,22 @@
+# OS files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Output Sale gen (giữ riêng, không share repo)
+outputs/
+
+# Skill cache
+.claude/cache/
+.claude/extracted/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets — NEVER commit
+.env
+.env.local
+*.key
+mcp.json.secret
