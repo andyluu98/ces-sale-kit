@@ -238,20 +238,30 @@ DEMO 3 — ces-sale-proposal (4')
 
 ---
 
-## Slide 13 — 3 MCP cho Sale (Phần 5)
+## Slide 13 — Agent Team: 4 nhân viên ảo (Phần 5) ⭐
 
 ```
-1. obsidian-opck1 — Vault CES Brain
-   → Đọc brand · portfolio · KH cũ · note Sếp
+SKILL vs AGENT TEAM:
 
-2. ces-sop — Tra SOP nội bộ
-   → "SOP báo giá in-house DN >500 người"
+Skill rời:  gõ 1 lệnh → 1 file
+Agent Team: gõ 1 prompt → 8 file
 
-3. Windows-MCP — Tự động hóa desktop
-   → Mở Excel · gửi email · screenshot
+ĐỘI 4 AGENT cho 1 Sale:
 
-→ Cài tự chọn. Bắt đầu với obsidian-opck1
-  vì lợi ích rõ nhất.
+  🤖 Discovery   → Pain · Persona · Câu hỏi
+  🤖 Content     → Proposal · Báo giá · Email
+  🤖 Pitch       → Kịch bản · Objection
+  🤖 Closing     → Timeline · HĐ · Email chốt
+
+CÁCH GỌI: 1 prompt natural language
+
+  "Case mới: KH = ... Tạo Agent Team
+   xử lý, em cần tài liệu trước 9h mai."
+
+→ 4 Agent chạy SONG SONG ~8 phút
+→ Output: outputs/{kh-slug}/01-08*.md
+
+→ Chi tiết: AGENTS.md ở root repo
 ```
 
 ---

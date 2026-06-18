@@ -36,15 +36,20 @@ Xem `INSTALL.md` — clone repo, cài Claude Code, đăng ký skills.
 
 ---
 
-## 🔌 MCP server đề xuất tích hợp
+## 🤖 Agent Team — 1 prompt sinh đội 4 nhân viên ảo ⭐
 
-| MCP | Lợi ích |
-|---|---|
-| `obsidian-opck1` (vault CES Brain) | Đọc tài liệu nội bộ · context KH cũ · brand guide |
-| `ces-sop` | Tra SOP tư vấn/báo giá đã chuẩn hóa |
-| `Windows-MCP` | Tự động mở Excel báo giá, gửi email, screenshot |
+**4 Agent** chạy song song hỗ trợ 1 Sale từ A-Z:
 
-→ Hướng dẫn cài: `training-260619/mcp-cho-sale.md`
+| Agent | Vai trò | Output |
+|---|---|---|
+| **Discovery** | Phân tích pain · match persona · 5 câu discovery | `01-discovery.md` |
+| **Content** | Proposal · báo giá · email | `02-proposal.md` + `03-quote.md` + `04-email.md` |
+| **Pitch** | Kịch bản · objection custom | `05-script.md` + `06-objections.md` |
+| **Closing** | Follow-up timeline · HĐ · email closing | `07` + `08a-contract.md` + `08b-email.md` |
+
+→ Sale gõ 1 prompt natural language → 8 file ready trong 5-10 phút.
+
+→ Hướng dẫn: **[AGENTS.md](AGENTS.md)**
 
 ---
 

@@ -22,7 +22,7 @@ Cuối buổi, mỗi Sale có:
 | 2 | **Claude basic cho Sale** | 15' | 08h35–08h50 | Claude.ai · Project · Style · 5 prompt template cơ bản |
 | 3 | **Claude Code + Cowork mode** | 20' | 08h50–09h10 | Cài Claude Code · Cowork session · Skill là gì · pattern repo |
 | 4 | ⭐ **Cowork tạo Skill `ces-sale-kit`** | 25' | 09h10–09h35 | Demo LIVE: clone repo · chạy thử 3 skill (proposal · script · email) |
-| 5 | **MCP tích hợp** | 15' | 09h35–09h50 | 3 MCP cho Sale: `obsidian-opck1` · `ces-sop` · `Windows-MCP` |
+| 5 | **Agent Team — 1 prompt sinh ekip 4 Agent** ⭐ | 15' | 09h35–09h50 | 4 Agent: Discovery · Content · Pitch · Closing — demo case Đại |
 | 6 | **Case Đại + Q&A** | 10' | 09h50–10h00 | Role-play: dùng Skill cho case 1 person company · Q&A · Giao kit cho team |
 
 ---
@@ -138,54 +138,39 @@ cd ces-sale-kit
 
 ---
 
-## Phần 5 — MCP tích hợp cho Sale (15')
+## Phần 5 — Agent Team: 1 prompt sinh ekip 4 Agent (15') ⭐
 
-**MCP là gì** (2')
-- Model Context Protocol — cho Claude truy cập tool ngoài (database, file, API)
-- Sale có MCP = Claude đọc được vault, gọi được CRM, mở được Excel
+**Concept** (3')
+- Skill = đồ nghề rời (gõ 1 lệnh ra 1 file)
+- Agent Team = ekip 4 nhân viên ảo (gõ 1 prompt → 4 Agent chạy song song → 8 file ready)
+- 4 vai trò: **Discovery** · **Content** · **Pitch** · **Closing**
 
-**3 MCP nên cài cho Sale** (10' — mỗi MCP 3')
+**Bảng 4 Agent** (3')
 
-### MCP 1: `obsidian-opck1` — Vault CES Brain
+| Agent | Vai trò | Output |
+|---|---|---|
+| 1. Discovery | Pain · persona · 5 câu hỏi | `01-discovery.md` |
+| 2. Content | Proposal · báo giá · email | `02-04 .md` |
+| 3. Pitch | Kịch bản · objection custom | `05-06 .md` |
+| 4. Closing | Timeline · HĐ · email chốt | `07-08 .md` |
 
-**Lợi ích:** Đọc tài liệu nội bộ — brand guide, portfolio chi tiết, KH cũ, lịch họp, note Sếp.
+**Demo LIVE case Đại** (9')
 
-**Cài:**
-- Cài plugin "Local REST API" trong Obsidian → bật → copy API key
-- Trong Claude Code: thêm vào `.claude/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "obsidian-opck1": {
-      "type": "http",
-      "url": "http://127.0.0.1:27123/mcp/",
-      "headers": {"Authorization": "Bearer {API_KEY}"}
-    }
-  }
-}
+TA gõ trong Claude Code:
+```
+Case mới: KH = Nguyễn Văn A, founder startup EdTech 8 người,
+đã dùng Claude.ai 6 tháng, hỏi "sao phải học CES".
+Ngân sách <20tr. Sáng mai 10h gọi follow-up.
+
+Tạo Agent Team xử lý case này, em cần đủ tài liệu trước 9h sáng mai.
 ```
 
-**Demo:** "Tìm KH cũ ngành EdTech đã tư vấn." → Claude search vault → trả về 3 KH cũ + ghi chú.
+Claude Code:
+- 4 Agent spawn song song
+- ~8 phút chạy xong 8 file
+- Sale review → fill placeholder → gửi KH
 
-### MCP 2: `ces-sop` — Tra SOP nội bộ
-
-**Lợi ích:** Sale tra SOP tư vấn/báo giá/quy trình chốt — đã chuẩn hóa.
-
-**Cài:** Đã có sẵn trong CES setup. Nếu chưa, hỏi Hải (Tech Lead).
-
-**Demo:** "SOP báo giá in-house cho DN >500 người là gì?" → trả về SOP đầy đủ.
-
-### MCP 3: `Windows-MCP` — Tự động hóa desktop
-
-**Lợi ích:** Mở Excel báo giá, gửi email qua Outlook, screenshot màn hình KH, click chuột.
-
-**Cài:** Tải release từ GitHub Windows-MCP, thêm vào `.claude/mcp.json`.
-
-**Demo:**
-- "Mở Excel `{tên file}` rồi screenshot cho em xem"
-- "Gen file Word proposal từ markdown vừa nãy"
-
-**Lưu ý:** Cẩn thận khi cho Claude điều khiển desktop — chỉ cấp quyền task cụ thể.
+→ Chi tiết: file `AGENTS.md` ở root repo.
 
 ---
 
