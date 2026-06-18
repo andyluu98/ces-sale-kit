@@ -1,5 +1,5 @@
 ---
-name: ces-sale-contract
+name: ces-sale-hop-dong
 description: Soạn hợp đồng đào tạo AI cho CES Global — hợp đồng nguyên tắc, dịch vụ, in-house, coaching. Dùng khi user nói "soạn hợp đồng cho KH [X]", "gen contract khóa [Y]", "/ces-sale-contract". Output hợp đồng markdown — Sale review, gửi pháp chế CES duyệt rồi ký.
 ---
 

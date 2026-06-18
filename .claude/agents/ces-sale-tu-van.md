@@ -1,5 +1,5 @@
 ---
-name: ces-sale-pitch
+name: ces-sale-tu-van
 description: Agent Pitch cho team Sale CES Global. Soạn kịch bản gọi/gặp KH + chuẩn bị 5-7 objection có thể gặp + script trả lời. Spawn parallel với Discovery/Content/Closing Agent.
 tools: Read, Write, Grep, Glob
 ---

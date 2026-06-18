@@ -1,6 +1,6 @@
 # Template — Proposal CES Global
 
-> Khung proposal chuẩn để Skill `ces-sale-proposal` gen output. 8 phần.
+> Khung proposal chuẩn để Skill `ces-sale-de-xuat` gen output. 8 phần.
 
 ```markdown
 # ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO AI

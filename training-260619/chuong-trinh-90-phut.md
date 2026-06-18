@@ -30,11 +30,11 @@ Cuối buổi, mỗi Sale có:
 ## Phần 1 — Mở đầu (5')
 
 **Mở:**
-> "Sáng nay 90' mình không nói về portfolio khóa — Sếp Tiệp giao em đào tạo các anh chị CÁCH DÙNG AI để tự sinh proposal/báo giá/kịch bản trong 5 phút thay vì 1 tiếng. Khi xong buổi này, các anh chị về máy gõ `/ces-sale-proposal` cái là ra proposal hoàn chỉnh."
+> "Sáng nay 90' mình không nói về portfolio khóa — Sếp Tiệp giao em đào tạo các anh chị CÁCH DÙNG AI để tự sinh proposal/báo giá/kịch bản trong 5 phút thay vì 1 tiếng. Khi xong buổi này, các anh chị về máy gõ `/ces-sale-de-xuat` cái là ra proposal hoàn chỉnh."
 
 **Demo nhanh (90 giây):**
 - Mở Claude Code
-- Gõ: `/ces-sale-script` → KH B2C, 1 person company, biết Claude rồi
+- Gõ: `/ces-sale-kich-ban` → KH B2C, 1 person company, biết Claude rồi
 - Skill ra kịch bản tư vấn 5 phần đầy đủ trên màn hình
 - "Đây là output 30 giây — buổi nay học cách build cái này."
 
@@ -113,21 +113,21 @@ cd ces-sale-kit
 
 **4.3 Demo 3 skill chính** (12')
 
-**Demo 1 — `ces-sale-script` (4')**
+**Demo 1 — `ces-sale-kich-ban` (4')**
 - TA mở Claude Code trong repo
 - Gõ: "Soạn kịch bản gọi cold cho persona 5 (1 person company), KH đã thử Claude rồi"
 - Skill tự đọc `personas-khach-hang.md` + `objection-bank.md`
 - Output kịch bản 5 phần (mở · discovery · pitch · objection · closing)
 - TA copy-paste ra → Đại đọc thử
 
-**Demo 2 — `ces-sale-objection` (4')**
+**Demo 2 — `ces-sale-xu-ly-tu-choi` (4')**
 - Đại nói: "KH em hôm qua nói 'Bên nào cũng chạy Claude'"
 - Gõ: "Objection: 'Bên nào cũng chạy Claude'. Persona 5. Tone lịch sự nhẹ."
 - Output script trả lời + evidence + bước tiếp theo
 
-**Demo 3 — `ces-sale-proposal` (4')**
+**Demo 3 — `ces-sale-de-xuat` (4')**
 - Đại nhập input: KH = "Founder startup 8 người, ngành EdTech, pain dạy AI cho team"
-- Gõ: `/ces-sale-proposal`
+- Gõ: `/ces-sale-de-xuat`
 - Skill hỏi 6 câu → Đại trả lời nhanh
 - Output proposal 8 phần với placeholder `{HOC_PHI}` `{UU_DAI}`
 
@@ -184,7 +184,7 @@ Claude Code:
 - Hỏi: "Sao tôi phải học CES khi Claude tôi tự xài được?"
 - Ngân sách: <20tr
 
-→ Đại gõ `/ces-sale-objection` + `/ces-sale-script` + `/ces-sale-proposal`
+→ Đại gõ `/ces-sale-xu-ly-tu-choi` + `/ces-sale-kich-ban` + `/ces-sale-de-xuat`
 → 3 phút có: kịch bản tư vấn + script trả lời objection + proposal phù hợp
 
 **Output kỳ vọng:** Đại có file proposal + script in/share luôn cho KH.

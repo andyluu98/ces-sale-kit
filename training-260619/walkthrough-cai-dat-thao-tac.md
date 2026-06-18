@@ -254,25 +254,25 @@ claude
 **Output mong đợi (thấy 7 skill):**
 ```
 Available skills:
-- ces-sale-proposal — Soạn proposal CES Global...
-- ces-sale-quote — Soạn bảng báo giá CES Global...
-- ces-sale-script — Gen kịch bản tư vấn Sale...
+- ces-sale-de-xuat — Soạn proposal CES Global...
+- ces-sale-bao-gia — Soạn bảng báo giá CES Global...
+- ces-sale-kich-ban — Gen kịch bản tư vấn Sale...
 - ces-sale-email — Soạn email Sale CES Global...
-- ces-sale-objection — Xử lý objection KH...
-- ces-sale-survey — Soạn form khảo sát KH...
-- ces-sale-contract — Soạn hợp đồng đào tạo...
+- ces-sale-xu-ly-tu-choi — Xử lý objection KH...
+- ces-sale-khao-sat — Soạn form khảo sát KH...
+- ces-sale-hop-dong — Soạn hợp đồng đào tạo...
 ```
 
 KHÔNG thấy → `pwd` check folder · `cd ces-sale-kit` nếu sai.
 
 ---
 
-### Thao tác 11 — Test Skill `ces-sale-script` (kịch bản tư vấn)
+### Thao tác 11 — Test Skill `ces-sale-kich-ban` (kịch bản tư vấn)
 
 **Gõ prompt nguyên văn (KHÔNG dùng /command, dùng câu tự nhiên gọi skill):**
 
 ```
-Dùng skill ces-sale-script để soạn kịch bản gọi cold 10 phút cho case sau:
+Dùng skill ces-sale-kich-ban để soạn kịch bản gọi cold 10 phút cho case sau:
 
 KH: anh Nguyễn Văn A
 Chức danh: Founder
@@ -328,12 +328,12 @@ của họ ra 5 bài/ngày thay vì 1 bài/2 ngày..."
 
 ---
 
-### Thao tác 12 — Test Skill `ces-sale-objection`
+### Thao tác 12 — Test Skill `ces-sale-xu-ly-tu-choi`
 
 **Paste prompt:**
 
 ```
-Dùng skill ces-sale-objection. Case:
+Dùng skill ces-sale-xu-ly-tu-choi. Case:
 
 KH = anh Nguyễn Văn A, persona P5 (1 person company - freelancer marketing).
 KH nói nguyên văn: "Em đã dùng Claude.ai 6 tháng rồi, sao phải mất tiền học CES?"
@@ -388,12 +388,12 @@ pitch tiếp."
 
 ---
 
-### Thao tác 13 — Test Skill `ces-sale-proposal`
+### Thao tác 13 — Test Skill `ces-sale-de-xuat`
 
 **Paste prompt:**
 
 ```
-Dùng skill ces-sale-proposal. Case:
+Dùng skill ces-sale-de-xuat. Case:
 
 KH: Công ty EdTech ABC (anh Nguyễn Văn A là Founder)
 Persona: P1 — Founder Startup
@@ -569,7 +569,7 @@ TA + Hải on-call. Top câu dự đoán:
 ### Prompt 1 — Soạn báo giá in-house cho DN lớn
 
 ```
-Dùng skill ces-sale-quote. Case:
+Dùng skill ces-sale-bao-gia. Case:
 
 KH: Công ty Bảo Việt — Phòng Đào tạo & Phát triển nhân sự
 Khóa: In-house "AI cho Nhân sự" — 4 buổi · 3h/buổi · offline tại Bảo Việt
@@ -601,7 +601,7 @@ Yêu cầu:
 ### Prompt 3 — Xử lý objection "Tôi đang dùng FUNiX/Topica rồi"
 
 ```
-Dùng skill ces-sale-objection. Case:
+Dùng skill ces-sale-xu-ly-tu-choi. Case:
 
 KH = chị Trần Thị C — Giám đốc một trường mầm non quốc tế
 Persona: P3 (HRM/L&D Manager — adapted cho giáo dục)
@@ -619,7 +619,7 @@ Yêu cầu:
 ### Prompt 4 — Soạn form khảo sát pre-in-house B2B
 
 ```
-Dùng skill ces-sale-survey. Case:
+Dùng skill ces-sale-khao-sat. Case:
 
 KH: Tập đoàn Hàng Hải — Phòng Đào tạo nhân sự
 Mục đích: Khảo sát nhu cầu đào tạo AI trước khi tailor curriculum in-house
@@ -650,7 +650,7 @@ Tạo Agent Team xử lý. Slug folder: fintech-xyz-tai-ky.
 ### Prompt 6 — Soạn kịch bản gặp face-to-face 60 phút
 
 ```
-Dùng skill ces-sale-script. Case:
+Dùng skill ces-sale-kich-ban. Case:
 
 KH: anh Phạm Văn E — Tổng Giám đốc một DN sản xuất thực phẩm 200 người
 Persona: P1 + P3 hybrid (Founder + HRM concerns)
@@ -686,7 +686,7 @@ Yêu cầu:
 ### Prompt 8 — Soạn proposal cho khách custom — Quỹ từ thiện
 
 ```
-Dùng skill ces-sale-proposal. Case đặc biệt:
+Dùng skill ces-sale-de-xuat. Case đặc biệt:
 
 KH: Quỹ từ thiện Thiện Tâm
 Đối tượng: ~20 nhân sự — staff + tình nguyện viên
@@ -730,7 +730,7 @@ Yêu cầu:
 ### Prompt 10 — Hợp đồng in-house DN lớn với ưu đãi
 
 ```
-Dùng skill ces-sale-contract. Case:
+Dùng skill ces-sale-hop-dong. Case:
 
 Bên A: Tập đoàn Hoà Phát — Khối Đào tạo & Phát triển
 Bên B: CES Global

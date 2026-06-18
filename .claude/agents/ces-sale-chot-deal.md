@@ -1,5 +1,5 @@
 ---
-name: ces-sale-closing
+name: ces-sale-chot-deal
 description: Agent Closing cho team Sale CES Global. Lên timeline follow-up · draft hợp đồng · email closing khi KH OK. Spawn parallel với Discovery/Content/Pitch Agent.
 tools: Read, Write, Grep, Glob
 ---

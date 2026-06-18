@@ -6,13 +6,13 @@
 
 | Gõ | Output |
 |---|---|
-| `/ces-sale-proposal` | Skill hỏi 6 câu → gen proposal 8 phần |
-| `/ces-sale-quote` | Skill hỏi 6 câu → gen báo giá bảng |
-| `/ces-sale-script` | Skill hỏi 6 câu → gen kịch bản tư vấn 5 phần |
+| `/ces-sale-de-xuat` | Skill hỏi 6 câu → gen proposal 8 phần |
+| `/ces-sale-bao-gia` | Skill hỏi 6 câu → gen báo giá bảng |
+| `/ces-sale-kich-ban` | Skill hỏi 6 câu → gen kịch bản tư vấn 5 phần |
 | `/ces-sale-email` | Skill hỏi type email → gen email 8 type |
-| `/ces-sale-objection` | Skill hỏi objection KH → script trả lời + evidence |
-| `/ces-sale-survey` | Skill hỏi type survey → spec Google Form |
-| `/ces-sale-contract` | Skill hỏi loại HĐ → hợp đồng draft 8 điều |
+| `/ces-sale-xu-ly-tu-choi` | Skill hỏi objection KH → script trả lời + evidence |
+| `/ces-sale-khao-sat` | Skill hỏi type survey → spec Google Form |
+| `/ces-sale-hop-dong` | Skill hỏi loại HĐ → hợp đồng draft 8 điều |
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: ces-sale-quote
+name: ces-sale-bao-gia
 description: Soạn bảng báo giá CES Global cho khóa đào tạo AI. Dùng khi user nói "soạn báo giá", "gen báo giá cho khách [X]", "báo giá khóa [tên]", "/ces-sale-quote". Output bảng báo giá rõ ràng — học phí · ưu đãi · thanh toán · không bao gồm — chuẩn brand CES.
 ---
 

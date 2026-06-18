@@ -1,6 +1,6 @@
 # Template — Báo giá CES Global
 
-> Khung báo giá cho Skill `ces-sale-quote`. Rõ ràng, không giấu phí.
+> Khung báo giá cho Skill `ces-sale-bao-gia`. Rõ ràng, không giấu phí.
 
 ```markdown
 # BÁO GIÁ — {Tên khóa}

@@ -93,8 +93,8 @@ outputs/
 | Tình huống | Dùng gì |
 |---|---|
 | Chỉ cần 1 file (vd: gen 1 email follow-up) | **Skill rời** (`/ces-sale-email`) |
-| Cần điều chỉnh 1 file đã có (vd: chỉnh proposal) | **Skill rời** (`/ces-sale-proposal`) |
-| Sale gặp objection mới giữa buổi gọi → cần script gấp | **Skill rời** (`/ces-sale-objection`) |
+| Cần điều chỉnh 1 file đã có (vd: chỉnh proposal) | **Skill rời** (`/ces-sale-de-xuat`) |
+| Sale gặp objection mới giữa buổi gọi → cần script gấp | **Skill rời** (`/ces-sale-xu-ly-tu-choi`) |
 | KH MỚI hoàn toàn — cần đủ tài liệu pitch lần đầu | **Agent Team** (1 prompt) |
 | KH đã pitch xong → chuẩn bị follow-up + chốt | **Agent Team** (1 prompt giai đoạn B/C) |
 | KH có hồ sơ năng lực file PDF dài → cần đọc + phân tích | **Agent Team** (Discovery đọc PDF tự) |

@@ -71,7 +71,7 @@ Xem `training-260619/mcp-cho-sale.md` — hướng dẫn cài:
 Trong Claude Code (đang ở folder ces-sale-kit), gõ:
 
 ```
-/ces-sale-script
+/ces-sale-kich-ban
 ```
 
 → Claude sẽ hỏi: KH là ai? B2B/B2C? Persona? Pain point?

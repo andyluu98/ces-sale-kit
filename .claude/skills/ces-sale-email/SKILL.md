@@ -1,6 +1,6 @@
 ---
 name: ces-sale-email
-description: Soạn email Sale CES Global — cold outreach, warm follow-up, closing, nurture. Dùng khi user nói "soạn email gửi KH [X]", "viết email follow-up", "email closing", "/ces-sale-email". Output email chuẩn brand, 8 template chính + custom.
+description: Soạn email Sale CES Global — cold outreach, warm follow-up, chốt deal, nurture. Dùng khi user nói "soạn email gửi KH [X]", "viết email follow-up", "email chốt deal", "/ces-sale-email". Output email chuẩn brand, 8 template chính + custom.
 ---
 
 # CES Sale Email — Email gửi KH chuẩn brand

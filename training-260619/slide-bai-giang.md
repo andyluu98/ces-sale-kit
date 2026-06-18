@@ -75,7 +75,7 @@ REPO: github.com/andyluu98/ces-sale-kit
 ```
 GÕ TRONG CLAUDE CODE:
 
-  /ces-sale-script
+  /ces-sale-kich-ban
 
 CLAUDE HỎI:
   - KH là ai? Persona nào? Mục tiêu?
@@ -205,13 +205,13 @@ CLONE REPO:
 CẤU TRÚC:
   ces-sale-kit/
   ├── .claude/skills/
-  │   ├── ces-sale-proposal/    ← Gen đề xuất
-  │   ├── ces-sale-quote/       ← Gen báo giá
-  │   ├── ces-sale-script/      ← Kịch bản tư vấn
+  │   ├── ces-sale-de-xuat/    ← Gen đề xuất
+  │   ├── ces-sale-bao-gia/       ← Gen báo giá
+  │   ├── ces-sale-kich-ban/      ← Kịch bản tư vấn
   │   ├── ces-sale-email/       ← 8 email mẫu
-  │   ├── ces-sale-objection/   ← Xử lý khúc mắc
-  │   ├── ces-sale-survey/      ← Form khảo sát
-  │   └── ces-sale-contract/    ← Hợp đồng
+  │   ├── ces-sale-xu-ly-tu-choi/   ← Xử lý khúc mắc
+  │   ├── ces-sale-khao-sat/      ← Form khảo sát
+  │   └── ces-sale-hop-dong/    ← Hợp đồng
   ├── knowledge/                ← Brand + Portfolio + Persona
   └── templates/                ← Khung output
 ```
@@ -221,16 +221,16 @@ CẤU TRÚC:
 ## Slide 12 — Demo 3 Skill LIVE (12 phút)
 
 ```
-DEMO 1 — ces-sale-script (4')
+DEMO 1 — ces-sale-kich-ban (4')
   "Kịch bản gọi cold persona 5,
    KH đã dùng Claude"
   → Output 5 phần
 
-DEMO 2 — ces-sale-objection (4')
+DEMO 2 — ces-sale-xu-ly-tu-choi (4')
   "KH nói: Bên nào cũng chạy Claude"
   → Script trả lời + evidence
 
-DEMO 3 — ces-sale-proposal (4')
+DEMO 3 — ces-sale-de-xuat (4')
   Input case Đại
   → Proposal 8 phần hoàn chỉnh
   → Placeholder {HOC_PHI} {UU_DAI} fill sau
@@ -278,9 +278,9 @@ ROLE-PLAY:
   Ngân sách = <20tr
 
 ĐẠI THỬ:
-  /ces-sale-objection → "Bên nào cũng dùng Claude"
-  /ces-sale-script → Kịch bản gọi
-  /ces-sale-proposal → Đề xuất khóa OPC + USP
+  /ces-sale-xu-ly-tu-choi → "Bên nào cũng dùng Claude"
+  /ces-sale-kich-ban → Kịch bản gọi
+  /ces-sale-de-xuat → Đề xuất khóa OPC + USP
 
 → 3 PHÚT CÓ ĐỦ 3 OUTPUT GỬI KH.
 ```

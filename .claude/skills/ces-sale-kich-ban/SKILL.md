@@ -1,5 +1,5 @@
 ---
-name: ces-sale-script
+name: ces-sale-kich-ban
 description: Gen kịch bản tư vấn Sale gặp/gọi KH theo persona. Dùng khi user nói "soạn kịch bản gọi", "kịch bản tư vấn KH [tên]", "script gặp KH [persona]", "/ces-sale-script". Output là script đọc lên dùng được — có lời thoại + objection + closing.
 ---
 

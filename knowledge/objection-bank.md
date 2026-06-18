@@ -1,6 +1,6 @@
 # Bank Objection — 12 khúc mắc thường gặp + câu trả lời
 
-> Skill `ces-sale-objection` đọc file này. Mỗi objection có: **Nguyên văn KH** · **Ý ẩn** · **Script trả lời** · **Evidence kèm**.
+> Skill `ces-sale-xu-ly-tu-choi` đọc file này. Mỗi objection có: **Nguyên văn KH** · **Ý ẩn** · **Script trả lời** · **Evidence kèm**.
 
 ## 1. "Bên nào cũng chạy Claude/ChatGPT, sao phải học CES?"
 

@@ -1,5 +1,5 @@
 ---
-name: ces-sale-survey
+name: ces-sale-khao-sat
 description: Soạn form khảo sát KH B2B/B2C cho CES Global — pre-workshop, post-workshop, post-buổi-học, post-khóa, NPS. Dùng khi user nói "soạn form khảo sát", "gen survey KH", "khảo sát sau workshop", "/ces-sale-survey". Output Google Form spec + câu hỏi sẵn — Sale paste vào Form.
 ---
 

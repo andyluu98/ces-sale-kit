@@ -1,6 +1,6 @@
 # Template — Hợp đồng đào tạo CES Global
 
-> Khung cho Skill `ces-sale-contract`. **CẢNH BÁO:** Output là DRAFT — phải gửi pháp chế CES (anh Tiệp + A. Linh) review trước khi ký.
+> Khung cho Skill `ces-sale-hop-dong`. **CẢNH BÁO:** Output là DRAFT — phải gửi pháp chế CES (anh Tiệp + A. Linh) review trước khi ký.
 
 ```markdown
 # HỢP ĐỒNG DỊCH VỤ ĐÀO TẠO AI

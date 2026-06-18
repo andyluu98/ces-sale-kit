@@ -1,5 +1,5 @@
 ---
-name: ces-sale-objection
+name: ces-sale-xu-ly-tu-choi
 description: Xử lý objection KH khi tư vấn khóa CES. Dùng khi user nói "KH nói X, trả lời sao", "objection [...] làm gì", "/ces-sale-objection". Skill tự đọc objection-bank → đưa script phản hồi theo 4 trụ CES + evidence cụ thể.
 ---
 

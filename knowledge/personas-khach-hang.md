@@ -101,13 +101,13 @@
 
 | Skill | Persona ưu tiên |
 |---|---|
-| `ces-sale-proposal` | P1, P2, P3, P4 (B2B) |
-| `ces-sale-quote` | Tất cả |
-| `ces-sale-script` | Tất cả (mỗi persona 1 kịch bản khác) |
+| `ces-sale-de-xuat` | P1, P2, P3, P4 (B2B) |
+| `ces-sale-bao-gia` | Tất cả |
+| `ces-sale-kich-ban` | Tất cả (mỗi persona 1 kịch bản khác) |
 | `ces-sale-email` | Tất cả |
-| `ces-sale-objection` | P1 (giá), P5 (đã có Claude rồi) |
-| `ces-sale-survey` | P2, P3 (cần data) |
-| `ces-sale-contract` | P1, P2, P3, P4 (B2B) |
+| `ces-sale-xu-ly-tu-choi` | P1 (giá), P5 (đã có Claude rồi) |
+| `ces-sale-khao-sat` | P2, P3 (cần data) |
+| `ces-sale-hop-dong` | P1, P2, P3, P4 (B2B) |
 
 ---
 

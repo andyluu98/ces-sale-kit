@@ -1,5 +1,5 @@
 ---
-name: ces-sale-content
+name: ces-sale-noi-dung
 description: Agent Content cho team Sale CES Global. Viết proposal + báo giá + email cover dựa trên Discovery output. Spawn parallel với Discovery/Pitch/Closing Agent.
 tools: Read, Write, Grep, Glob
 ---

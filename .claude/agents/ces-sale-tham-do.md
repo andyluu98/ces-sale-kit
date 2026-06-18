@@ -1,5 +1,5 @@
 ---
-name: ces-sale-discovery
+name: ces-sale-tham-do
 description: Agent Discovery cho team Sale CES Global. Phân tích hồ sơ KH → ra pain analysis · match persona (1-5) · gen 5 câu discovery cần hỏi thêm. Spawn parallel với Content/Pitch/Closing Agent khi Sale có case mới.
 tools: Read, Grep, Glob
 ---

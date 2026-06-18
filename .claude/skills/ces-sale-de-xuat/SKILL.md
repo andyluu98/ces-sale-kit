@@ -1,5 +1,5 @@
 ---
-name: ces-sale-proposal
+name: ces-sale-de-xuat
 description: Soạn proposal CES Global gửi KH B2B/B2C sau buổi tư vấn đầu. Dùng khi user nói "soạn proposal", "viết đề xuất khóa", "gen proposal cho khách [X]", "/ces-sale-proposal". Skill tự đọc persona + portfolio + brand → output proposal markdown chuẩn brand CES, có placeholder học phí để Sale fill.
 ---
 

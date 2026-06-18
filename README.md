@@ -10,13 +10,13 @@
 
 | Skill | Dùng khi | Output |
 |---|---|---|
-| `ces-sale-proposal` | Gửi proposal cho KH B2B/B2C sau buổi tư vấn đầu | File MD/Word proposal chuẩn brand |
-| `ces-sale-quote` | KH hỏi báo giá | Bảng báo giá có học phí + ưu đãi + thanh toán |
-| `ces-sale-script` | Trước buổi gọi/gặp KH | Kịch bản tư vấn theo persona KH |
+| `ces-sale-de-xuat` | Gửi proposal cho KH B2B/B2C sau buổi tư vấn đầu | File MD/Word proposal chuẩn brand |
+| `ces-sale-bao-gia` | KH hỏi báo giá | Bảng báo giá có học phí + ưu đãi + thanh toán |
+| `ces-sale-kich-ban` | Trước buổi gọi/gặp KH | Kịch bản tư vấn theo persona KH |
 | `ces-sale-email` | Gửi email follow-up KH | Email template cold/warm/closing |
-| `ces-sale-objection` | KH nêu khúc mắc | Script trả lời objection + evidence |
-| `ces-sale-survey` | Khảo sát KH B2B sau workshop/buổi học | Form Google Form spec + câu hỏi |
-| `ces-sale-contract` | Chốt deal, soạn hợp đồng | Hợp đồng nguyên tắc/dịch vụ mẫu |
+| `ces-sale-xu-ly-tu-choi` | KH nêu khúc mắc | Script trả lời objection + evidence |
+| `ces-sale-khao-sat` | Khảo sát KH B2B sau workshop/buổi học | Form Google Form spec + câu hỏi |
+| `ces-sale-hop-dong` | Chốt deal, soạn hợp đồng | Hợp đồng nguyên tắc/dịch vụ mẫu |
 
 ---
 
