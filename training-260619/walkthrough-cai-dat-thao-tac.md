@@ -1,6 +1,9 @@
-# Walkthrough cài đặt + thao tác — Buổi training Sale 19/06
+# Walkthrough cài đặt + thao tác + PROMPT thực hành — Training Sale 19/06
 
-> Tài liệu Sale **MỞ TRÊN MÁY** trong buổi training. Mỗi bước có lệnh copy-paste + screenshot mong đợi. In ra 1 bản phụ cầm theo.
+> **Sale MỞ FILE NÀY TRÊN MÁY** trong buổi training. Mỗi thao tác có:
+> - Lệnh/prompt **COPY-PASTE TRỰC TIẾP** (không phải sửa)
+> - **Output mong đợi** mẫu để biết đúng/sai
+> - 10 prompt EXTRA cuối file để Sale practice sau buổi
 
 **Repo:** https://github.com/andyluu98/ces-sale-kit
 
@@ -12,72 +15,121 @@
 
 - ✅ Windows 10/11 hoặc Mac
 - ✅ Tài khoản Claude **Pro** (`claude.ai/upgrade` — 20$/tháng) hoặc Max
-- ✅ Cài Git (`git-scm.com` → next-next-finish)
-- ✅ Có tài khoản GitHub (free là đủ)
+- ✅ Cài Git: `git-scm.com` → next-next-finish (Win) hoặc `brew install git` (Mac)
+- ✅ Có tài khoản GitHub free
 
-### Nếu chưa có Claude Pro
-
-→ Hỏi A. Linh xin tài khoản team (CES có account chung) hoặc nâng cấp Pro cá nhân.
+Chưa có Claude Pro → hỏi A. Linh xin tài khoản team CES.
 
 ---
 
-## 📚 8h30–08h35 · Phần 1 — Mở đầu (5')
+## 📚 08h30–08h35 · Phần 1 — Mở đầu (5')
 
-TA dạy. **Sale chưa cần thao tác.**
-
-Chỉ cần: mở laptop, chuẩn bị terminal sẵn.
+TA dạy. Sale chỉ cần mở laptop, terminal sẵn.
 
 ---
 
 ## 💻 08h35–08h50 · Phần 2 — Claude basic cho Sale (15')
 
-### Thao tác 1 — Mở Claude.ai
+### Thao tác 1 — Mở claude.ai + Login
 
-1. Mở browser → `claude.ai`
-2. Login bằng email (Pro/Max)
+1. Browser → `https://claude.ai`
+2. Login bằng email Pro/Max
+3. Vào giao diện chat
 
-**Mong đợi:** Thấy giao diện chat Claude.
+**Output mong đợi:** Thấy ô gõ "How can I help you today?" ở giữa màn hình.
 
-### Thao tác 2 — Tạo Project đầu tiên
+---
+
+### Thao tác 2 — Tạo Project "KH thử nghiệm"
 
 1. Cột trái → click **+ New Project**
-2. Tên project: `KH thử nghiệm — Training 19-06`
+2. Name: `KH thử nghiệm — Training 19-06`
 3. Description: `Project test trong buổi training Sale`
-4. Bấm **Create**
+4. Click **Create**
 
-**Mong đợi:** Tạo xong project rỗng.
+**Output mong đợi:** Project mới hiện trong sidebar, ô chat ghi "What are you working on with [project name]?"
+
+---
 
 ### Thao tác 3 — Tạo Custom Style "CES Tone"
 
-1. Trong project → click **Set custom style**
-2. Paste vào ô:
+1. Trong project → click avatar góc phải dưới ô gõ → **Choose style** → **Create custom style**
+2. **Paste vào ô instructions:**
 
 ```
-Tone CES Global:
-- 4 trụ tính cách: chuyên nghiệp · tiên phong · thực chiến · nhân văn
-- Xưng "anh/chị" + "em/mình", không "quý khách"
-- Có số liệu cụ thể, không chung chung
-- Không hạ thấp đối thủ
-- Không "đảm bảo thành công 100%"
-- Câu mở đầu là hook (số liệu/câu hỏi/tình huống thực)
-- Mỗi đoạn ngắn 1-3 câu, dễ đọc
+Bạn là Sale CES Global. Tone giao tiếp 4 trụ:
+1. Chuyên nghiệp — có số liệu, dẫn chứng, không chung chung
+2. Tiên phong — định vị AI First, không "theo trend"
+3. Thực chiến — kết quả đo được, không lý thuyết
+4. Nhân văn — "AI không thay thế con người, AI giúp con người làm tốt hơn"
+
+Xưng hô: "anh/chị" (KH) + "em/mình" (Sale). KHÔNG dùng "quý khách".
+
+Câu mở đầu phải là hook: câu hỏi · số liệu · tình huống thực.
+
+Mỗi đoạn ngắn 1-3 câu, có xuống dòng để dễ đọc trên mobile.
+
+TUYỆT ĐỐI TRÁNH:
+- "AI sẽ thay thế con người"
+- "Đảm bảo thành công 100%"
+- "Quý khách hàng vui lòng..."
+- Buzzword rỗng ("đột phá toàn diện cách mạng số")
+- Hạ thấp đối thủ (ChatGPT, Gemini, Microsoft Copilot)
+
+Tagline có thể dùng cuối bài:
+- "Đồng hành chuyển đổi AI cùng doanh nghiệp"
+- "Kinh doanh hiệu quả — Phát triển bền vững"
+
+Sản phẩm CES: AI GATE · CES EDU AI · 9 dòng đào tạo · 100k+ KH · Top 10 thương hiệu tín nhiệm QG.
 ```
 
-3. Lưu style → đặt tên: `CES Tone`
+3. Đặt tên: `CES Tone` → **Save**
 
-**Mong đợi:** Style xuất hiện trong danh sách.
+**Output mong đợi:** Style "CES Tone" xuất hiện trong dropdown chọn style.
 
-### Thao tác 4 — Test 1 prompt cơ bản
+---
 
-Trong project, gõ:
+### Thao tác 4 — Test prompt soạn email cold
+
+Trong project, chọn Style "CES Tone", **paste prompt nguyên văn:**
 
 ```
-Viết email cold gửi 1 founder startup EdTech, 
-đã dùng Claude rồi, tone CES Tone.
-Subject ngắn + body < 100 từ + CTA đặt 15' call.
+Soạn email cold gửi anh Nguyễn Văn A — founder startup EdTech 8 người tại Hà Nội. 
+
+Em đã thấy startup này huy động seed round 2 tỷ tháng trước, đang scale team. 
+
+Mục tiêu email: đặt 1 buổi call 15 phút để pitch khóa "AI Agent cho Doanh nghiệp 6 buổi" của CES Global. 
+
+Yêu cầu:
+- Subject < 70 ký tự, có tên KH + giá trị cụ thể
+- Body < 100 từ
+- Hook bằng số liệu hoặc câu hỏi (không nịnh)
+- Có 1 social proof (KH lớn CES đã làm)
+- CTA cụ thể: "tuần này anh tiện khung nào?"
+- Tone CES Tone (đã set)
+
+Trả về format: Subject | Body | Note 1 dòng giải thích chọn hook gì.
 ```
 
-**Mong đợi:** Claude ra email tone CES — xưng anh/chị, không quý khách.
+**Output mong đợi (mẫu):**
+
+```
+Subject: Anh A — 6 buổi AI cho team startup EdTech 8 người
+
+Body:
+Em là [Tên] từ CES Global. Em vừa thấy [Tên DN] huy động seed 2 tỷ — chúc mừng anh!
+
+8 người scale nhanh thường gặp 1 pain: team chưa kịp dùng AI để leverage. CES vừa làm in-house cho VNPT — sau 6 buổi, đội 12 người tiết kiệm 8h/tuần.
+
+Em xin 15' call tuần này để xem có giúp được [Tên DN] không. Anh tiện thứ mấy ạ?
+
+Em cảm ơn anh.
+
+---
+Note: Hook bằng tin huy động + số liệu cụ thể (8h/tuần) thay vì nịnh chung chung.
+```
+
+→ Test 2-3 prompt khác với case khác nhau để quen.
 
 ---
 
@@ -85,7 +137,7 @@ Subject ngắn + body < 100 từ + CTA đặt 15' call.
 
 ### Thao tác 5 — Cài Claude Code
 
-**Windows (PowerShell — bấm Win+X → chọn PowerShell):**
+**Windows (PowerShell):**
 
 ```powershell
 iwr -useb https://claude.ai/install.ps1 | iex
@@ -97,15 +149,20 @@ iwr -useb https://claude.ai/install.ps1 | iex
 curl -fsSL https://claude.ai/install.sh | sh
 ```
 
-→ Đợi 1-2 phút cài xong.
+Đợi 1-2 phút.
 
-**Test cài thành công:**
+**Test cài OK:**
 
 ```powershell
 claude --version
 ```
 
-**Mong đợi:** In ra phiên bản (vd `claude version X.Y.Z`).
+**Output mong đợi:**
+```
+claude version 1.x.x
+```
+
+---
 
 ### Thao tác 6 — Login Claude Code
 
@@ -113,29 +170,50 @@ claude --version
 claude
 ```
 
-→ Lần đầu sẽ yêu cầu login → bấm `1` chọn "Claude account" → mở browser → login → quay lại terminal.
+Lần đầu yêu cầu login:
+1. Chọn `1` cho "Claude account"
+2. Browser tự mở → login
+3. Quay lại terminal
 
-**Mong đợi:** Thấy prompt `>` chờ nhập lệnh.
-
-### Thao tác 7 — Test prompt cơ bản trong Claude Code
-
-Gõ trong Claude Code:
-
+**Output mong đợi:**
 ```
-Viết 1 đoạn hello world chuẩn brand CES Global.
+✓ Logged in as [your-email]
+> 
 ```
 
-**Mong đợi:** Output đoạn ngắn chuẩn tone CES.
-
-Gõ `/exit` để thoát.
+(Dấu `>` là prompt chờ nhập)
 
 ---
 
-## ⭐ 09h10–09h35 · Phần 4 — Clone repo + test Skill (25')
+### Thao tác 7 — Test prompt cơ bản trong Claude Code
+
+**Paste prompt nguyên văn vào Claude Code:**
+
+```
+Giới thiệu CES Global trong 50 từ, tone chuyên nghiệp nhưng thân thiện. 
+Nhấn 3 ý: AI First · 10+ năm · 100k+ KH (Hoà Phát, VNPT, Bảo Việt). 
+Kết bằng tagline "Đồng hành chuyển đổi AI cùng doanh nghiệp".
+```
+
+**Output mong đợi:**
+```
+CES Global là DN AI First tiên phong tại Việt Nam — 10+ năm đào tạo và 
+triển khai AI cho hơn 100.000 khách hàng, trong đó có Hoà Phát, VNPT, 
+Bảo Việt. Chúng em không bán "khóa học", em bán lộ trình + cộng đồng + 
+hỗ trợ 6 tháng sau đào tạo.
+
+"Đồng hành chuyển đổi AI cùng doanh nghiệp."
+```
+
+Gõ `/exit` thoát Claude Code.
+
+---
+
+## ⭐ 09h10–09h35 · Phần 4 — Clone repo + Test 3 Skill (25')
 
 ### Thao tác 8 — Clone repo ces-sale-kit
 
-Mở terminal mới (PowerShell trên Windows hoặc Terminal Mac):
+Trong terminal mới:
 
 ```powershell
 cd ~
@@ -143,236 +221,596 @@ git clone https://github.com/andyluu98/ces-sale-kit.git
 cd ces-sale-kit
 ```
 
-**Mong đợi:**
+**Output mong đợi:**
 ```
 Cloning into 'ces-sale-kit'...
-remote: ...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (28/28), done.
+Receiving objects: 100% (30/30)...
 Resolving deltas: 100% (X/X), done.
 ```
 
-### Thao tác 9 — Xem cấu trúc repo
+---
 
-```powershell
-ls
-```
-
-**Mong đợi thấy:**
-- `AGENTS.md` · `README.md` · `INSTALL.md`
-- `.claude/` (chứa `skills/` + `agents/`)
-- `knowledge/` · `templates/` · `training-260619/`
-
-### Thao tác 10 — Mở Claude Code trong repo
+### Thao tác 9 — Mở Claude Code trong repo
 
 ```powershell
 claude
 ```
 
-**Mong đợi:** Claude Code khởi động, đã ở folder `ces-sale-kit`.
+**Output mong đợi:** Claude Code load, hiển thị folder đang ở.
 
-### Thao tác 11 — Kiểm tra Skill đã load
+---
 
-Trong Claude Code gõ:
+### Thao tác 10 — Kiểm tra 7 Skill đã load
+
+**Gõ trong Claude Code:**
 
 ```
 /skills
 ```
 
-**Mong đợi thấy 7 skill:**
-- `ces-sale-proposal`
-- `ces-sale-quote`
-- `ces-sale-script`
-- `ces-sale-email`
-- `ces-sale-objection`
-- `ces-sale-survey`
-- `ces-sale-contract`
-
-Nếu KHÔNG thấy → check lại đang ở đúng folder `ces-sale-kit` không (`pwd` để xem).
-
-### Thao tác 12 — Test Skill `ces-sale-script` (kịch bản)
-
-Gõ trong Claude Code:
-
+**Output mong đợi (thấy 7 skill):**
 ```
-/ces-sale-script
+Available skills:
+- ces-sale-proposal — Soạn proposal CES Global...
+- ces-sale-quote — Soạn bảng báo giá CES Global...
+- ces-sale-script — Gen kịch bản tư vấn Sale...
+- ces-sale-email — Soạn email Sale CES Global...
+- ces-sale-objection — Xử lý objection KH...
+- ces-sale-survey — Soạn form khảo sát KH...
+- ces-sale-contract — Soạn hợp đồng đào tạo...
 ```
 
-Skill sẽ hỏi 6 câu — Sale trả lời theo case này:
+KHÔNG thấy → `pwd` check folder · `cd ces-sale-kit` nếu sai.
+
+---
+
+### Thao tác 11 — Test Skill `ces-sale-script` (kịch bản tư vấn)
+
+**Gõ prompt nguyên văn (KHÔNG dùng /command, dùng câu tự nhiên gọi skill):**
 
 ```
-1. KH: Nguyễn Văn A
-2. Persona: 5 (1 person company)
-3. Loại buổi: warm follow-up
-4. Mục tiêu: đặt demo
-5. Thời lượng: 30 phút
-6. KH biết CES rồi qua đâu: đã đăng ký workshop
+Dùng skill ces-sale-script để soạn kịch bản gọi cold 10 phút cho case sau:
+
+KH: anh Nguyễn Văn A
+Chức danh: Founder
+DN: startup EdTech 8 người, ở Hà Nội
+Persona: P1 — Founder Startup
+Đã dùng AI: ChatGPT 6 tháng, đang nghĩ nâng cấp Claude
+Pain quan sát: team chưa biết dùng AI để scale content marketing
+Mục tiêu buổi gọi: đặt lịch gặp 30 phút tuần này
+
+Yêu cầu:
+- Kịch bản 5 phần (mở · discovery · pitch · objection · closing)
+- Bao gồm 5 câu discovery cụ thể
+- Top 3 objection có thể gặp + script trả lời mỗi cái
+- Tone CES — đồng nghiệp ngang hàng, không thấp giọng xin việc
+- Quy tắc 70/30 (KH 70%, Sale 30%)
 ```
 
-**Mong đợi:** Skill output kịch bản 5 phần đầy đủ ngay trong terminal.
+**Output mong đợi (snippet):**
 
-### Thao tác 13 — Test Skill `ces-sale-objection`
+```markdown
+# KỊCH BẢN GỌI COLD 10' — Anh Nguyễn Văn A
+
+## Phần 1 — Mở đầu (1')
+"Em chào anh A. Em là [Tên] từ CES Global. Em thấy [Tên DN] đang scale 
+team 8 người sau seed round — em xin 2 phút thôi, anh có tiện không?"
+
+→ Mục tiêu: lấy 2 phút lắng nghe, KHÔNG pitch.
+
+## Phần 2 — Discovery (4-5')
+1. [Warm-up] "Anh làm Founder bao lâu rồi ạ? Đội ngũ 8 người gồm 
+   những vai trò gì?"
+   *Vì sao hỏi: hiểu cơ cấu team để pitch khóa đúng phòng ban.*
+
+2. [Quy trình] "Một tuần điển hình team marketing tốn bao nhiêu 
+   giờ làm content?"
+   *Vì sao hỏi: lấy số liệu cụ thể để pitch ROI sau.*
+
+[... 3 câu nữa]
+
+## Phần 3 — Pitch (2')
+"Em hiểu — vấn đề lớn nhất là team chưa scale được content. Khóa AI 
+Agent DN 6 buổi của CES vừa làm cho VNPT — sau khóa, team marketing 
+của họ ra 5 bài/ngày thay vì 1 bài/2 ngày..."
+
+## Phần 4 — Top 3 Objection
+1. "Bên nào cũng dạy Claude" → [script trả lời]
+2. "Giá cao" → [script]
+3. "Tôi tự học YouTube được" → [script]
+
+## Phần 5 — Closing (1-2')
+[3 lựa chọn: mạnh/TB/nhẹ]
+```
+
+---
+
+### Thao tác 12 — Test Skill `ces-sale-objection`
+
+**Paste prompt:**
 
 ```
-/ces-sale-objection
+Dùng skill ces-sale-objection. Case:
+
+KH = anh Nguyễn Văn A, persona P5 (1 person company - freelancer marketing).
+KH nói nguyên văn: "Em đã dùng Claude.ai 6 tháng rồi, sao phải mất tiền học CES?"
+Context: warm follow-up sau khi KH đăng ký workshop.
+Tone KH: lịch sự nhẹ, không gay gắt.
+
+Yêu cầu output:
+- Phân tích ý ẩn của KH
+- Script trả lời 3-5 câu (đọc lên dùng được)
+- 3 evidence cụ thể kèm (case study · repo · số liệu)
+- Bước tiếp theo nếu KH OK
+- Bước tiếp theo nếu KH vẫn từ chối (KHÔNG push lần 3)
 ```
 
-Trả lời:
+**Output mong đợi (snippet):**
+
+```markdown
+## Phân tích
+- **Ý ẩn:** KH thấy AI tool là commodity, không hiểu giá trị "lộ trình + 
+  cộng đồng". Đã thử Claude → tự tin tự học được.
+- **Persona context:** P5 hay gặp objection này (case Đại Sale)
+- **Tone match:** nhẹ — KH lịch sự, không cần phản công mạnh
+
+## Script trả lời
+"Anh A nói đúng — tool ai cũng có. Nhưng dùng tool ≠ build Agent ≠ deploy 
+cho công việc lặp. Em giải thích nhanh:
+
+Anh đã dùng Claude 6 tháng — anh đã build được AI Agent đầu tiên giúp anh 
+giảm 5h/tuần chưa ạ? Nếu chưa, vấn đề không phải tool, mà là LỘ TRÌNH.
+
+CES không bán Claude — em bán lộ trình + repo mẫu + cộng đồng 1200 người 
+để anh không phải tự bơi. Anh thử mở repo này 5 phút: 
+github.com/andyluu98/ces-marketing-agent-kit — đó là output HV Workshop 
+Marketing tuần trước. Nếu thấy anh tự làm được trong 6 tháng tới, em không 
+pitch tiếp."
+
+## Evidence
+1. Repo: github.com/andyluu98/ces-marketing-agent-kit (mở 5 phút)
+2. Case Đại đã ghi lại: HV 1 person company sau khóa OPC build Agent 
+   tự động hóa 70% công việc content
+3. Số liệu cộng đồng: 1.200+ thành viên CES Academy
+
+## Bước tiếp theo nếu KH OK
+- Đặt lịch demo 30' tuần này để xem 1 use case cụ thể
+- Gửi link repo cho anh xem trước
+
+## Bước tiếp theo nếu KH từ chối
+- KHÔNG push lần 3
+- "Em hiểu — anh thử repo trước. Em set reminder Q3, lúc đó review lại."
+- Gửi 1 ebook free về xu hướng AI Agent giữ kết nối
+```
+
+---
+
+### Thao tác 13 — Test Skill `ces-sale-proposal`
+
+**Paste prompt:**
 
 ```
-1. Objection: "Bên nào cũng dạy Claude, sao phải học CES?"
-2. Context: warm follow-up
-3. Persona: 5
-4. Tone: lịch sự nhẹ
+Dùng skill ces-sale-proposal. Case:
+
+KH: Công ty EdTech ABC (anh Nguyễn Văn A là Founder)
+Persona: P1 — Founder Startup
+Ngành: EdTech, vừa huy động seed 2 tỷ
+Quy mô: 8 người (1 founder + 4 dev + 2 marketing + 1 sale)
+Pain top 3:
+  1. Team marketing chậm, content ra 1 bài/2 ngày
+  2. Dev cũng muốn dùng AI nhưng setup mỗi người mỗi kiểu
+  3. Founder muốn cả công ty AI-First trong 6 tháng
+
+Khóa đề xuất: AI Agent cho Doanh nghiệp — 6 buổi · 2.5h/buổi · 
+hybrid (3 online + 3 offline tại HN)
+
+Ngân sách KH chia sẻ: 50-200tr cho training năm này
+
+Yêu cầu output:
+- Proposal đầy đủ 8 phần theo template
+- Tóm tắt 30 giây hấp dẫn ở đầu
+- Lộ trình 6 buổi chi tiết (mỗi buổi 1 dòng output HV)
+- ROI dự kiến quy ra giờ tiết kiệm + tiền
+- Placeholder {HOC_PHI} {UU_DAI} để Sale fill sau
+- File lưu vào outputs/edtech-abc/02-proposal.md
 ```
 
-**Mong đợi:** Output script trả lời + evidence.
+**Output mong đợi:**
 
-### Thao tác 14 — Test Skill `ces-sale-proposal`
+Skill gen file `outputs/edtech-abc/02-proposal.md` đầy đủ 8 phần. Trong terminal hiển thị tóm tắt + path file.
 
+**Mở file kiểm tra:**
+
+```powershell
+# Trong terminal khác:
+cat outputs/edtech-abc/02-proposal.md
+# Hoặc mở bằng VS Code:
+code outputs/edtech-abc/02-proposal.md
 ```
-/ces-sale-proposal
-```
-
-Trả lời:
-
-```
-1. KH: Nguyễn Văn A — startup EdTech
-2. Persona: 1 (Founder Startup)
-3. Loại: khóa public
-4. Pain: dạy AI cho team 8 người
-5. Quy mô: 8 người
-6. Ngân sách: 50-200tr
-```
-
-**Mong đợi:** Output proposal 8 phần đầy đủ với placeholder `{HOC_PHI}`.
 
 ---
 
 ## 🤖 09h35–09h50 · Phần 5 — Agent Team (15')
 
-### Thao tác 15 — Spawn Agent Team với 1 prompt
+### Thao tác 14 — Spawn Agent Team với 1 prompt
 
-Trong Claude Code (vẫn ở folder `ces-sale-kit`), gõ NGUYÊN VĂN (không gõ `/`):
+**Paste prompt NGUYÊN VĂN vào Claude Code:**
 
 ```
-Case mới: KH = Nguyễn Văn A, founder startup EdTech 8 người,
-đã dùng Claude.ai 6 tháng, hỏi "sao phải học CES".
-Ngân sách <20tr. Sáng mai 10h gọi follow-up.
+Case mới: Anh Nguyễn Văn A — founder startup EdTech ABC tại Hà Nội. 
+Quy mô 8 người (1 founder + 4 dev + 2 marketing + 1 sale). 
+Vừa huy động seed 2 tỷ tháng trước.
 
-Tạo Agent Team xử lý case này, em cần đủ tài liệu trước 9h sáng mai.
+Đã dùng AI: ChatGPT Plus 6 tháng. Đang cân nhắc nâng Claude Pro.
+
+Pain chính KH chia sẻ:
+1. Team marketing chậm — content ra 1 bài/2 ngày
+2. Dev mỗi người dùng AI mỗi kiểu, không có workflow chung  
+3. Founder muốn cả công ty AI-First trong 6 tháng
+
+KH nói nguyên văn: "Bên nào cũng dạy Claude rồi, sao phải học CES?"
+
+Ngân sách: 50-200tr/năm cho training.
+
+Sáng mai 10h em gọi follow-up. Em cần đủ tài liệu trước 9h sáng mai.
+
+Tạo Agent Team xử lý case này. Slug folder output: edtech-abc.
 ```
 
-**Claude Code sẽ:**
-1. Đọc prompt → parse info
-2. Spawn 4 Agent song song:
-   - Discovery (~2')
-   - Content (~3')
-   - Pitch (~3')
-   - Closing (~2')
-3. Mỗi Agent ghi file vào `outputs/nguyen-van-a/`
+**Output mong đợi (Claude Code log):**
 
-**Mong đợi:** Thấy log dạng:
 ```
+Em hiểu — đây là case end-to-end. Em sẽ spawn 4 Agent song song:
+
 🤖 Discovery Agent đang chạy...
-✅ outputs/nguyen-van-a/01-discovery.md
+   Đọc info KH · Phân tích pain · Match persona · Gen 5 câu discovery
+   ✅ outputs/edtech-abc/01-discovery.md (Persona P1 confirmed, 7 pain)
+
 🤖 Content Agent đang chạy...
-✅ outputs/nguyen-van-a/02-proposal.md
-...
+   Đọc Discovery · Chọn khóa fit · Gen proposal + báo giá + email
+   ✅ outputs/edtech-abc/02-proposal.md
+   ✅ outputs/edtech-abc/03-quote.md
+   ✅ outputs/edtech-abc/04-email.md
+
+🤖 Pitch Agent đang chạy...
+   Soạn kịch bản gọi 30' · 7 objection custom
+   ✅ outputs/edtech-abc/05-script.md
+   ✅ outputs/edtech-abc/06-objections.md
+
+🤖 Closing Agent đang chạy...
+   Timeline follow-up · HĐ draft · email closing
+   ✅ outputs/edtech-abc/07-followup-timeline.md
+   ✅ outputs/edtech-abc/08a-contract-draft.md
+   ✅ outputs/edtech-abc/08b-email-closing.md
+
+⏱️ Hoàn thành 8 file trong 7 phút 23 giây.
+
+📌 Lưu ý Sale:
+- Fill {HOC_PHI} sau khi xác nhận khóa (AI Agent DN 6 buổi)
+- Verify ngân sách 50-200tr — em đề xuất gói 90tr (đã ưu đãi 10% early bird)
+- HĐ draft cần gửi pháp chế A. Tiệp + A. Linh trước khi ký
+- Top objection để chuẩn bị: "Bên nào cũng dạy Claude" — script ở file 06
 ```
 
-### Thao tác 16 — Mở folder output xem
+---
 
-Mở terminal khác hoặc File Explorer:
+### Thao tác 15 — Mở folder output xem 8 file
+
+**Terminal khác hoặc File Explorer:**
 
 ```powershell
-cd outputs/nguyen-van-a
+cd outputs/edtech-abc
 ls
 ```
 
-**Mong đợi thấy 8 file:**
-- `01-discovery.md` (Discovery Agent)
-- `02-proposal.md` · `03-quote.md` · `04-email.md` (Content Agent)
-- `05-script.md` · `06-objections.md` (Pitch Agent)
-- `07-followup-timeline.md` · `08a-contract-draft.md` · `08b-email-closing.md` (Closing Agent)
+**Output mong đợi:**
+```
+01-discovery.md
+02-proposal.md
+03-quote.md
+04-email.md
+05-script.md
+06-objections.md
+07-followup-timeline.md
+08a-contract-draft.md
+08b-email-closing.md
+```
 
-Mở thử `02-proposal.md` xem nội dung.
+**Mở từng file kiểm tra:**
+
+```powershell
+code .   # mở cả folder trong VS Code
+# Hoặc đọc trong terminal:
+cat 01-discovery.md
+cat 02-proposal.md
+```
 
 ---
 
 ## 🎬 09h50–10h00 · Phần 6 — Case Đại role-play + Q&A (10')
 
-### Thao tác 17 — Role-play với case Đại thật
+### Thao tác 16 — Đại role-play với case THẬT
 
-Đại nhập case thật đang tư vấn:
+**Đại paste case thật đang tư vấn (thay info vào template):**
 
 ```
-Case thật: KH = {tên KH Đại đang tư vấn}, 
-{chức danh + DN/cá nhân},
-đã dùng AI: {gì},
-pain: {nguyên văn KH nói},
-ngân sách: {khoảng},
-mục tiêu Sale: {gặp/chốt/đặt demo}.
+Case thật: KH = [TÊN KH THẬT], 
+[Chức danh + DN/cá nhân], 
+[Ngành/lĩnh vực],
+quy mô [N người],
+đã dùng AI: [ChatGPT/Claude/Gemini/chưa],
+pain nguyên văn KH nói: "[paste nguyên văn]",
+ngân sách: [khoảng tiền hoặc "chưa rõ"],
+mục tiêu Sale: [gặp/chốt/đặt demo],
+[Thời điểm gọi tiếp theo].
 
-Tạo Agent Team xử lý.
+Tạo Agent Team xử lý. Slug folder: [tên-kh-slug].
 ```
 
-→ Đại xem output → giữ lại 2-3 file dùng được ngay → review tone.
+**Đại xem 8 file output → giữ 2-3 file dùng được ngay → review tone.**
 
-### Q&A — 5 phút cuối
+### Q&A 5 phút cuối
 
-Hỏi gì cũng được — TA + Hải on-call.
+TA + Hải on-call. Top câu dự đoán:
+- "Em không biết code, có dùng được Skill không?" → Có, Skill che hết phần code
+- "Output gen ra gửi thẳng KH được không?" → Cần review + fill placeholder học phí
+- "Agent Team có thay GV không?" → Không, là công cụ, GV vẫn cần
+- "Lỡ Skill output sai thì sao?" → Refine 3 vòng (xem cheatsheet)
 
 ---
 
-## ✅ Sau buổi (Sale làm tối nay/cuối tuần)
+## 📦 BONUS — 10 PROMPT EXTRA cho Sale practice SAU BUỔI
 
-### Việc 1 — Sửa knowledge fit DN mình
+> Mỗi prompt copy-paste vào Claude Code (trong folder ces-sale-kit). Practice 1 prompt/ngày trong tuần.
 
-Mở file `knowledge/portfolio-khoa-ces.md` trong VS Code/Notepad:
+### Prompt 1 — Soạn báo giá in-house cho DN lớn
 
-- Fill học phí thật vào placeholder `{HOC_PHI_OPC}` `{HOC_PHI_BOOTCAMP_TC}` ...
+```
+Dùng skill ces-sale-quote. Case:
+
+KH: Công ty Bảo Việt — Phòng Đào tạo & Phát triển nhân sự
+Khóa: In-house "AI cho Nhân sự" — 4 buổi · 3h/buổi · offline tại Bảo Việt
+Số HV: 25 người
+Ưu đãi: 10% (KH lớn lâu năm)
+Thanh toán: 2 đợt 50-50, đợt 1 trong 7 ngày sau ký HĐ
+
+Yêu cầu: Bảng báo giá đầy đủ + STK + thông tin xuất hóa đơn + 
+điều kiện thanh toán + cam kết đầu ra.
+```
+
+### Prompt 2 — Soạn email closing chốt deal
+
+```
+Dùng skill ces-sale-email. Case:
+
+KH: chị Nguyễn Thị B — HRM tại Công ty Nhựa Tiền Phong
+Đã OK proposal khóa AI cho Nhân sự, giá 65tr
+Cần: email kèm hợp đồng + STK + bước tiếp theo
+
+Yêu cầu:
+- Type 7 (Closing)
+- Subject ngắn rõ
+- Body < 150 từ
+- Có STK đầy đủ
+- 3 bước rõ ràng sau khi KH ký
+```
+
+### Prompt 3 — Xử lý objection "Tôi đang dùng FUNiX/Topica rồi"
+
+```
+Dùng skill ces-sale-objection. Case:
+
+KH = chị Trần Thị C — Giám đốc một trường mầm non quốc tế
+Persona: P3 (HRM/L&D Manager — adapted cho giáo dục)
+Objection nguyên văn: "Bên em đang đào tạo nhân viên qua FUNiX, 
+khóa rất rẻ và đa dạng. Sao phải đổi sang CES?"
+Tone: nhẹ nhưng có chút phòng thủ
+
+Yêu cầu:
+- KHÔNG hạ thấp FUNiX
+- Chỉ ra khác biệt: FUNiX = trường tổng quát, CES = AI-First specialist
+- Đưa evidence cụ thể
+- Đề xuất "thử khóa 1 buổi pilot" thay vì pitch full course ngay
+```
+
+### Prompt 4 — Soạn form khảo sát pre-in-house B2B
+
+```
+Dùng skill ces-sale-survey. Case:
+
+KH: Tập đoàn Hàng Hải — Phòng Đào tạo nhân sự
+Mục đích: Khảo sát nhu cầu đào tạo AI trước khi tailor curriculum in-house
+Đối tượng khảo sát: 5 trưởng phòng + 1 PGĐ phụ trách HR
+Format: Google Form
+
+Yêu cầu:
+- Type 5 (Pre-in-house B2B)
+- 15-18 câu chia 5 section
+- Có ngân sách + timeline ra quyết định
+- Confirmation message ấm áp
+- KÈM CẢ Google Apps Script tự sinh Form từ markdown này
+```
+
+### Prompt 5 — Spawn Agent Team cho KH cũ tái ký
+
+```
+Case tái ký: KH = anh Lê Minh D — CTO startup Fintech XYZ
+KH cũ đã học Codex Workshop 3 tháng trước, đánh giá 9/10
+Giờ muốn đào tạo TOÀN BỘ team dev 12 người
+Pain mới: dev junior chưa quen Claude Code workflow
+Ngân sách: 200-400tr
+Cần proposal mới + lịch in-house
+
+Tạo Agent Team xử lý. Slug folder: fintech-xyz-tai-ky.
+```
+
+### Prompt 6 — Soạn kịch bản gặp face-to-face 60 phút
+
+```
+Dùng skill ces-sale-script. Case:
+
+KH: anh Phạm Văn E — Tổng Giám đốc một DN sản xuất thực phẩm 200 người
+Persona: P1 + P3 hybrid (Founder + HRM concerns)
+Đã gặp 1 lần — quan tâm khóa in-house, nhưng còn đang so 3 vendor
+
+Loại buổi: face-to-face 60 phút tại văn phòng KH
+Mục tiêu: pitch khóa AI cho Sản xuất + chốt proposal
+Thời lượng cụ thể: discovery 20' + pitch 20' + Q&A 15' + closing 5'
+
+Yêu cầu:
+- Quy tắc 70/30
+- 10 câu discovery (chia 4 nhóm)
+- 3 USP key + 1 case study tương tự (DN sản xuất)
+- 5 objection chuẩn bị + script
+- Closing có 3 lựa chọn theo signal KH
+```
+
+### Prompt 7 — Phân tích response Google Form Workshop
+
+```
+Em vừa thu xong response Workshop AI cho HR (24 lead).
+File CSV em paste ở dưới — phân tích giúp em:
+
+[paste CSV response Google Form vào đây]
+
+Yêu cầu:
+- Top 3 pain phổ biến nhất
+- 5 lead nóng nhất (criteria: pain rõ + ngân sách >50tr + decision trong 1 tháng)
+- Script gọi follow-up riêng cho mỗi lead trong top 5
+- Đề xuất 1 khóa upsell phù hợp cho từng lead
+```
+
+### Prompt 8 — Soạn proposal cho khách custom — Quỹ từ thiện
+
+```
+Dùng skill ces-sale-proposal. Case đặc biệt:
+
+KH: Quỹ từ thiện Thiện Tâm
+Đối tượng: ~20 nhân sự — staff + tình nguyện viên
+Pain: dùng AI để sắp xếp công việc tổ chức từ thiện hiệu quả hơn
+  - Lên kế hoạch chiến dịch quyên góp
+  - Viết content truyền thông cảm xúc
+  - Sàng lọc case khẩn cấp
+  - Quản lý tình nguyện viên
+Đặc thù: tổ chức phi lợi nhuận, ngân sách hạn chế
+
+Khóa đề xuất: 4 buổi custom, 2 phương án Online + Offline
+Công cụ đào tạo: ChatGPT + Gemini + Claude
+
+Yêu cầu:
+- 2 phương án (Online + Offline) kèm chi phí
+- Tone đặc biệt: nhân văn nhấn mạnh (phù hợp tổ chức từ thiện)
+- ROI quy ra "thêm bao nhiêu KH cần giúp được tiếp cận"
+- Form tham chiếu: khóa SOLO
+- Output 2 file: proposal-online.md + proposal-offline.md
+```
+
+### Prompt 9 — Email nurture cho KH chưa sẵn sàng
+
+```
+Dùng skill ces-sale-email. Case:
+
+KH: anh Vũ Văn F — CEO một chuỗi cafe 5 chi nhánh
+Đã pitch 3 tuần trước, KH nói "chưa cần training AI, để Q sau"
+Giờ là tháng 6, Q3 mới bắt đầu tháng 7
+
+Yêu cầu:
+- Type 8 (Nurture)
+- KHÔNG pitch khóa
+- Gửi 1 value miễn phí: ebook "10 cách AI tiết kiệm 5h/tuần cho chủ chuỗi F&B"
+- Tone ấm áp, không guilt-trip
+- Mở đầu KHÔNG nhắc "anh đã nói chưa cần"
+- Để mở để KH tự rep nếu muốn
+- < 80 từ body
+```
+
+### Prompt 10 — Hợp đồng in-house DN lớn với ưu đãi
+
+```
+Dùng skill ces-sale-contract. Case:
+
+Bên A: Tập đoàn Hoà Phát — Khối Đào tạo & Phát triển
+Bên B: CES Global
+
+Khóa: In-house "AI cho Lãnh đạo & Quản lý" 
+- 5 buổi · 3h/buổi
+- 30 lãnh đạo cấp trung
+- Offline tại trụ sở Hoà Phát (Hà Nội)
+- Khai giảng: 15/07/2026
+
+Giá: 250tr (đã ưu đãi 15% KH lớn lâu năm) — đã VAT
+Thanh toán: 3 đợt 40-30-30
+  - Đợt 1: ngay khi ký
+  - Đợt 2: trước KG 7 ngày
+  - Đợt 3: sau buổi 3
+
+Yêu cầu:
+- Hợp đồng dịch vụ đào tạo (Type 2)
+- 8 điều đầy đủ
+- Cam kết đầu ra cụ thể (3-5 use case mỗi HV)
+- Buổi bổ sung miễn phí nếu <80% đạt
+- Bảo mật 3 năm
+- CẢNH BÁO bắt buộc gửi pháp chế review trước ký
+- Placeholder MST + STK + đại diện ký
+```
+
+---
+
+## ✅ Sau buổi — 4 việc Sale tự làm (tối nay/cuối tuần)
+
+### Việc 1 — Practice 10 prompt extra ở trên
+
+Mỗi ngày 1 prompt → 1 tuần hết. So output với case thật mình đang xử lý.
+
+### Việc 2 — Fill học phí thật vào knowledge
+
+Mở `knowledge/portfolio-khoa-ces.md`:
+
+- Tìm tất cả `{HOC_PHI_*}` 
 - Hỏi A. Hiếu MKT số chính thức
+- Replace placeholder bằng số thật
+- Save file
 
-### Việc 2 — Add 5 objection mới gặp tuần này
+### Việc 3 — Thêm 5 objection mới gặp tuần này
 
 Mở `knowledge/objection-bank.md`:
 
 - Thêm objection số 13, 14, 15... mỗi Sale có gì share thêm
 - Format giống objection 1-12 (Ý ẩn · Script · Evidence)
 
-### Việc 3 — Push update lên GitHub
+### Việc 4 — Push update lên GitHub
 
 ```powershell
-cd ces-sale-kit
+cd ~/ces-sale-kit
 git add knowledge/
-git commit -m "feat: cập nhật học phí + thêm 5 objection mới"
+git commit -m "feat: cập nhật học phí + thêm 5 objection mới [tên Sale]"
 git push
 ```
 
 → Cả team Sale `git pull` để dùng update mới.
 
-### Việc 4 — In cheat sheet 1 trang
-
-Mở `training-260619/prompt-cheatsheet.md` → print → gấp bỏ túi.
-
 ---
 
-## 🆘 Khi gặp lỗi — Top 5 trouble
+## 🆘 Top 5 lỗi thường gặp + fix nhanh
 
-| Lỗi | Cách fix |
-|---|---|
-| `claude: command not found` | Restart terminal · Check `$env:PATH` (Windows) hoặc `~/.zshrc` (Mac) |
-| `/skills` không thấy skill nào | `pwd` xem có ở folder `ces-sale-kit` không · `cd ces-sale-kit` |
-| Skill output cứng, không đúng brand | Đọc lại `knowledge/brand-ces-global.md` đã update chưa · Báo TA |
-| Agent Team không spawn parallel | Restart Claude Code · Update Claude Code: `claude update` |
-| Git push lỗi authentication | `gh auth login` → chọn HTTPS · Login lại |
+| Lỗi | Triệu chứng | Cách fix |
+|---|---|---|
+| `claude: command not found` | Terminal không nhận lệnh `claude` | Restart terminal · Check `$env:PATH` (Win) hoặc `~/.zshrc` (Mac) |
+| `/skills` không thấy skill | Skill list rỗng | `pwd` xem có ở folder `ces-sale-kit` · `cd ces-sale-kit` |
+| Skill output không đúng brand | Tone bị generic, không xưng "anh/chị" | Re-prompt: "Output chưa đúng tone CES — xưng anh/chị, không quý khách, làm lại." |
+| Agent Team không spawn 4 Agent | Chỉ thấy 1 Agent chạy | `claude update` · Restart Claude Code |
+| `git push` báo lỗi auth | Push fail | `gh auth login` → chọn HTTPS · Login lại |
 
 ---
 
 ## 📞 Hỗ trợ kỹ thuật
 
-- **Tuấn Anh** (lead) — content + skill output
-- **Hải** (Tech Lead) — cài đặt, lỗi terminal, MCP
-- **A. Linh** (Sale lead) — STK · MST · brand info
+- **Tuấn Anh** (lead) — content + skill output không ưng
+- **Hải** (Tech Lead) — cài đặt, lỗi terminal, Claude Code, MCP
+- **A. Linh** (Sale lead) — STK · MST · brand info · học phí chính thức
 
 Inbox nhóm CES Global hoặc trực tiếp.
 
@@ -381,10 +819,15 @@ Inbox nhóm CES Global hoặc trực tiếp.
 ## 🎯 Mục tiêu cuối buổi
 
 Sale phải làm được:
-- ✅ Cài Claude Code · clone repo · login
-- ✅ Gõ `/ces-sale-script` ra kịch bản
+- ✅ Cài Claude Code · login · clone repo
+- ✅ Gõ prompt skill ra output (test 3 skill chính)
 - ✅ Gõ 1 prompt Agent Team ra 8 file
 - ✅ Edit `knowledge/portfolio-khoa-ces.md` thêm khóa mới
 - ✅ Push update lên GitHub cho team dùng chung
 
 **Nếu chưa làm được → ping Hải/TA buổi chiều, làm 1-1.**
+
+---
+
+**Repo:** https://github.com/andyluu98/ces-sale-kit
+**File này:** `training-260619/walkthrough-cai-dat-thao-tac.md`
