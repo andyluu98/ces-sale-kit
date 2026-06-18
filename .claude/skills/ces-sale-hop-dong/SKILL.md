@@ -5,7 +5,7 @@ description: Soạn hợp đồng đào tạo AI cho CES Global — hợp đồn
 
 # CES Sale Contract — Hợp đồng đào tạo
 
-Skill gen hợp đồng đào tạo. **CẢNH BÁO:** Output là draft — phải gửi pháp chế CES (anh Tiệp/A.Linh) review trước khi ký.
+Skill gen hợp đồng đào tạo. **CẢNH BÁO:** Output là draft — phải gửi pháp chế CES (anh Tiệp/Linh) review trước khi ký.
 
 ## Khi nào dùng
 
@@ -174,7 +174,7 @@ Bên B cam kết:
 Sau khi gen, output kèm warning:
 
 > ⚠️ **HỢP ĐỒNG NÀY LÀ DRAFT.** Trước khi ký phải:
-> 1. Gửi pháp chế CES (anh Tiệp + A. Linh) review
+> 1. Gửi pháp chế CES (anh Tiệp + Linh) review
 > 2. Verify MST + STK + đại diện ký 2 bên
 > 3. In bản chính thức, đóng dấu
 

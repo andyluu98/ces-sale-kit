@@ -1,6 +1,6 @@
 # Template — Hợp đồng đào tạo CES Global
 
-> Khung cho Skill `ces-sale-hop-dong`. **CẢNH BÁO:** Output là DRAFT — phải gửi pháp chế CES (anh Tiệp + A. Linh) review trước khi ký.
+> Khung cho Skill `ces-sale-hop-dong`. **CẢNH BÁO:** Output là DRAFT — phải gửi pháp chế CES (anh Tiệp + Linh) review trước khi ký.
 
 ```markdown
 # HỢP ĐỒNG DỊCH VỤ ĐÀO TẠO AI
@@ -139,7 +139,7 @@ Bên B cam kết:
 ## Cảnh báo bắt buộc
 
 ⚠️ Hợp đồng này là DRAFT. Trước khi ký phải:
-1. Gửi pháp chế CES (anh Tiệp + A. Linh) review
+1. Gửi pháp chế CES (anh Tiệp + Linh) review
 2. Verify MST + STK + đại diện ký 2 bên
 3. In bản chính thức, đóng dấu 2 bên
 

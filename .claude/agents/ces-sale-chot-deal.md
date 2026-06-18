@@ -79,10 +79,10 @@ Gen song song:
 8 điều, có placeholder pháp lý:
 - `{MST}` Bên A
 - `{HOC_PHI}` `{TONG_FINAL}`
-- `{STK CES}` (hỏi A. Linh)
+- `{STK CES}` (hỏi Linh)
 - `{MST CES}` (hỏi A. Tiệp)
 
-⚠️ CẢNH BÁO BẮT BUỘC: Draft này phải gửi pháp chế CES (A. Tiệp + A. Linh) review trước khi ký.
+⚠️ CẢNH BÁO BẮT BUỘC: Draft này phải gửi pháp chế CES (A. Tiệp + Linh) review trước khi ký.
 
 **08b — Email closing** (template Type 7)
 
@@ -116,7 +116,7 @@ Nếu giai đoạn C (đã OK giá), thêm checklist:
 
 ## ⚠️ TRƯỚC KHI GỬI KH
 
-1. **Hợp đồng draft** — bắt buộc gửi pháp chế (A. Tiệp + A. Linh) review
+1. **Hợp đồng draft** — bắt buộc gửi pháp chế (A. Tiệp + Linh) review
 2. **Verify** MST + STK + đại diện ký 2 bên
 3. **Fill** placeholder `{HOC_PHI}` `{TONG_FINAL}` con số thật
 

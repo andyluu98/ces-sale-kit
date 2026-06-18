@@ -91,7 +91,7 @@ Trả về Sale 1 đoạn report:
 ## ⚠️ Placeholder Sale cần fill
 - `{HOC_PHI}` — học phí thật (hỏi A. Hiếu MKT)
 - `{UU_DAI}` — chính sách ưu đãi đang chạy
-- `{STK}` — STK CES (hỏi A. Linh)
+- `{STK}` — STK CES (hỏi Linh)
 - `{MST}` — MST CES Global
 - `{Sale name}` + `{SĐT}` + `{Email}` cá nhân Sale
 

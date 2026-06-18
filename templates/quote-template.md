@@ -74,5 +74,5 @@ CES Global · 222 Nguyễn Văn Tuyết, Đống Đa, HN
 ## Lưu ý
 
 - **Hiệu lực 30 ngày** — sau đó cần gen lại
-- **STK CES** — hỏi A. Linh (Sale lead) số chính thức
+- **STK CES** — hỏi Linh (Phụ trách Sale) số chính thức
 - **MST CES Global** — fill vào knowledge sau khi anh Tiệp confirm

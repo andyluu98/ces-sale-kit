@@ -18,7 +18,7 @@
 - ✅ Cài Git: `git-scm.com` → next-next-finish (Win) hoặc `brew install git` (Mac)
 - ✅ Có tài khoản GitHub free
 
-Chưa có Claude Pro → hỏi A. Linh xin tài khoản team CES.
+Chưa có Claude Pro → hỏi Linh xin tài khoản team CES.
 
 ---
 
@@ -491,7 +491,7 @@ Em hiểu — đây là case end-to-end. Em sẽ spawn 4 Agent song song:
 📌 Lưu ý Sale:
 - Fill {HOC_PHI} sau khi xác nhận khóa (AI Agent DN 6 buổi)
 - Verify ngân sách 50-200tr — em đề xuất gói 90tr (đã ưu đãi 10% early bird)
-- HĐ draft cần gửi pháp chế A. Tiệp + A. Linh trước khi ký
+- HĐ draft cần gửi pháp chế A. Tiệp + Linh trước khi ký
 - Top objection để chuẩn bị: "Bên nào cũng dạy Claude" — script ở file 06
 ```
 
@@ -810,7 +810,7 @@ git push
 
 - **Tuấn Anh** (lead) — content + skill output không ưng
 - **Hải** (Tech Lead) — cài đặt, lỗi terminal, Claude Code, MCP
-- **A. Linh** (Sale lead) — STK · MST · brand info · học phí chính thức
+- **Linh** (Phụ trách Sale) — STK · MST · brand info · học phí chính thức
 
 Inbox nhóm CES Global hoặc trực tiếp.
 

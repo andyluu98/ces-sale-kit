@@ -3,7 +3,7 @@
 > **Hướng:** Dạy Sale CÁCH DÙNG Claude + Claude Code + cowork tạo Skill chuẩn brand CES + MCP. KHÔNG phải chỉ giới thiệu portfolio.
 >
 > **Người dạy:** Tuấn Anh (Lead Phòng Dự Án)
-> **Đối tượng:** Team Sale CES Global (A. Linh + Đại + ...)
+> **Đối tượng:** Team Sale CES Global (Linh + Đại + ...)
 > **Bối cảnh:** Sếp Tiệp giao 18/06 — Đại đang tư vấn case 1 person company khó, Sale chưa biết show điểm mạnh CES.
 
 ## Mục tiêu buổi
